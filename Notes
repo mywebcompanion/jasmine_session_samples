@@ -71,3 +71,16 @@ describe("toThrow", function() {
   });
 });
 
+jasmine spies
+==============
+
+- Built for mocking single functions
+- replacement mocking and pass-through mocking.
+- Has built-in matchers
+There are two ways to create a spy in Jasmine:
+* spyOn
+* jasmine.createSpy . Basic Usage : spyOn(object,"methodName");
+spyOn can only be used when the method already exists on the object, whereas jasmine.createSpy will return a function.
+
+
+
